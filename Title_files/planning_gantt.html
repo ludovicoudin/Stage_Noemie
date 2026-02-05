@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<title>GanttIDb84c6e796efb</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- Gantt generated in R 4.3.1 by googleVis 0.7.3 package -->
+<!-- Thu Feb  5 10:27:14 2026 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataGanttIDb84c6e796efb () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"T1",
+"Debut du stage",
+"jalon",
+new Date(2026,3,7),
+new Date(2026,3,8),
+null,
+0,
+null
+],
+[
+"T2",
+"Fin du stage",
+"jalon",
+new Date(2026,6,2),
+new Date(2026,6,3),
+null,
+0,
+null
+],
+[
+"T3",
+"Remise du rapport",
+"jalon",
+new Date(2026,5,10),
+new Date(2026,5,11),
+null,
+0,
+null
+],
+[
+"T4",
+"Soutenance",
+"jalon",
+new Date(2026,5,17),
+new Date(2026,5,18),
+null,
+0,
+null
+],
+[
+"T5",
+"Prise en main airGR avec les tutoriels en ligne",
+"programmation",
+new Date(2026,3,7),
+new Date(2026,3,15),
+null,
+0,
+null
+],
+[
+"T6",
+"Biblio intensive sur la modélisation hydrologique",
+"biblio",
+new Date(2026,3,7),
+new Date(2026,3,24),
+null,
+0,
+null
+],
+[
+"T7",
+"Biblio intensive sur le site et données utilisées",
+"biblio",
+new Date(2026,3,7),
+new Date(2026,3,24),
+null,
+0,
+null
+],
+[
+"T8",
+"Adaptation airGR avec les donnees observees",
+"programmation",
+new Date(2026,3,16),
+new Date(2026,4,7),
+null,
+0,
+null
+],
+[
+"T9",
+"Adaptation airGR avec les donnees dendro",
+"programmation",
+new Date(2026,4,7),
+new Date(2026,4,22),
+null,
+0,
+null
+],
+[
+"T10",
+"Redaction du rapport",
+"redaction",
+new Date(2026,4,22),
+new Date(2026,4,29),
+null,
+0,
+null
+],
+[
+"T11",
+"Relecture du rapport par Pierre et Ludovic",
+"redaction",
+new Date(2026,4,29),
+new Date(2026,5,5),
+null,
+0,
+null
+],
+[
+"T12",
+"Correction et finalisation du rapport",
+"redaction",
+new Date(2026,5,5),
+new Date(2026,5,11),
+null,
+0,
+null
+],
+[
+"T13",
+"Preparation de la soutenance",
+"Communication",
+new Date(2026,5,11),
+new Date(2026,5,18),
+null,
+0,
+null
+],
+[
+"T14",
+"Tests complementaires ou communication article",
+"Communication",
+new Date(2026,5,19),
+new Date(2026,6,3),
+null,
+0,
+null
+] 
+];
+data.addColumn('string','taskID');
+data.addColumn('string','taskName');
+data.addColumn('string','resource');
+data.addColumn('date','start');
+data.addColumn('date','end');
+data.addColumn('number','duration');
+data.addColumn('number','percentComplete');
+data.addColumn('string','dependencies');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartGanttIDb84c6e796efb() {
+var data = gvisDataGanttIDb84c6e796efb();
+var options = {};
+options["width"] = 600;
+options["height"] = 600;
+
+
+    var chart = new google.visualization.Gantt(
+    document.getElementById('GanttIDb84c6e796efb')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "gantt";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartGanttIDb84c6e796efb);
+})();
+function displayChartGanttIDb84c6e796efb() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGanttIDb84c6e796efb"></script>
+ 
+<!-- divChart -->
+  
+<div id="GanttIDb84c6e796efb" 
+  style="width: 600; height: 600;">
+</div>
+ <div><span>Data: planning &#8226; Chart ID: <a href="Chart_GanttIDb84c6e796efb.html">GanttIDb84c6e796efb</a> &#8226; <a href="https://mages.github.io/googleVis/">googleVis-0.7.3</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 4.3.1 (2023-06-16 ucrt) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://developers.google.com/chart/interactive/docs/gallery/ganttchart">Documentation and Data Policy</a>
+</span></div>
+</body>
+</html>
