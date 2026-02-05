@@ -3,10 +3,6 @@ Stage Noémie
 L Oudin
 2026-02-05
 
-    ## Warning: le package 'timevis' a été compilé avec la version R 4.3.3
-
-![](Title_files/figure-gfm/pressure-1.png)<!-- -->
-
 # Rappel du sujet de stage
 
 L’intensification et la fréquence croissante des événements
@@ -67,17 +63,24 @@ l’Asco, obtenue grâce au modèle hydrologique GR4J forcé par la réanalyse
 FYRE de précipitations et températures quotidiennes sur la période
 1871–2012.
 
-![](Title_files/figure-gfm/gvis-gantt-1.png)<!-- -->
+    ## 
+    ## Attachement du package : 'dplyr'
+
+    ## Les objets suivants sont masqués depuis 'package:stats':
+    ## 
+    ##     filter, lag
+
+    ## Les objets suivants sont masqués depuis 'package:base':
+    ## 
+    ##     intersect, setdiff, setequal, union
 
 # Planning du stage
 
-<!-- <p> -->
-
-<!-- <iframe class="responsive-iframe" src="https://github.com/ludovicoudin/Stage_Noemie/blob/main/planning_gantt.html" width="900" height="700" frameborder="0"> -->
-
-<!-- </iframe> -->
-
-<!-- </p> -->
+<figure>
+<img src="Title_files/planning.png"
+alt="Figure 2 - Planning du stage" />
+<figcaption aria-hidden="true">Figure 2 - Planning du stage</figcaption>
+</figure>
 
 # Description détaillée des tâches
 
