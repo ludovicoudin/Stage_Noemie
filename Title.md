@@ -63,15 +63,19 @@ l’Asco, obtenue grâce au modèle hydrologique GR4J forcé par la réanalyse
 FYRE de précipitations et températures quotidiennes sur la période
 1871–2012.
 
+    ## Warning: le package 'timevis' a été compilé avec la version R 4.3.3
+
+![](Title_files/figure-gfm/gvis-gantt-1.png)<!-- -->
+
 # Planning du stage
 
-<p>
+<!-- <p> -->
 
-<iframe class="responsive-iframe" src="Title_files/planning_gantt.html" width="900" height="700" frameborder="0">
+<!-- <iframe class="responsive-iframe" src="https://github.com/ludovicoudin/Stage_Noemie/blob/main/planning_gantt.html" width="900" height="700" frameborder="0"> -->
 
-</iframe>
+<!-- </iframe> -->
 
-</p>
+<!-- </p> -->
 
 # Description détaillée des tâches
 
