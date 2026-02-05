@@ -3,6 +3,10 @@ Stage Noémie
 L Oudin
 2026-02-05
 
+    ## Warning: le package 'timevis' a été compilé avec la version R 4.3.3
+
+![](Title_files/figure-gfm/pressure-1.png)<!-- -->
+
 # Rappel du sujet de stage
 
 L’intensification et la fréquence croissante des événements
@@ -62,8 +66,6 @@ l’analyse dendrogéomorphique avec une série de débits simulés sur
 l’Asco, obtenue grâce au modèle hydrologique GR4J forcé par la réanalyse
 FYRE de précipitations et températures quotidiennes sur la période
 1871–2012.
-
-    ## Warning: le package 'timevis' a été compilé avec la version R 4.3.3
 
 ![](Title_files/figure-gfm/gvis-gantt-1.png)<!-- -->
 
