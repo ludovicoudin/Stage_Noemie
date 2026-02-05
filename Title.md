@@ -63,23 +63,12 @@ l’Asco, obtenue grâce au modèle hydrologique GR4J forcé par la réanalyse
 FYRE de précipitations et températures quotidiennes sur la période
 1871–2012.
 
-    ## 
-    ## Attachement du package : 'dplyr'
-
-    ## Les objets suivants sont masqués depuis 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## Les objets suivants sont masqués depuis 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
-
 # Planning du stage
 
 <figure>
 <img src="Title_files/planning.png"
-alt="Figure 2 - Planning du stage" />
-<figcaption aria-hidden="true">Figure 2 - Planning du stage</figcaption>
+alt="Figure 1 - Planning du stage" />
+<figcaption aria-hidden="true">Figure 1 - Planning du stage</figcaption>
 </figure>
 
 # Description détaillée des tâches
